@@ -1,8 +1,9 @@
 <template>
-    <section class="h-screen bg-no-repeat bg-center bg-cover bg-[url('/src/assets/img/6313772.jpg')] saturate-50">
+    <section
+        class="h-screen bg-no-repeat bg-center bg-cover bg-[url('/src/assets/img/6313772.jpg')] saturate-50 overflow-hidden">
         <main class="flex flex-col h-screen w-screen bg-gradient-to-b from-black to-transparent">
             <header
-                class="pt-24 mx-5 sm:mx-11 md:mx-20 lg:mx-40 2xl:mx-72 flex flex-col gap-6 sm:gap-8 md:gap-10 lg:gap-12 xl:gap-20">
+                class="pt-16 sm:pt-24 mx-5 sm:mx-11 md:mx-20 lg:mx-40 2xl:mx-72 flex flex-col gap-6 sm:gap-8 md:gap-10 lg:gap-12 xl:gap-20">
                 <h1
                     class="text-center justify-center font-abhayasemibold font-extrabold text-2xl sm:text-7xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl text-white">
                     Tras esta
