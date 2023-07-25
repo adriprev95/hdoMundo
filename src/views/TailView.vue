@@ -3,9 +3,9 @@
         <section
             class="h-screen bg-no-repeat bg-center bg-cover bg-[url('/src/assets/img/6313772.jpg')] saturate-50 z-10 fixed overflow-hidden">
             <main class="flex flex-col h-screen w-screen bg-gradient-to-b from-black to-transparent">
-                <section class="scrollbar-hide overflow-scroll">
+                <section class="scrollbar-hide overflow-scroll snap-y">
                     <div v-for="page in pages" :key="page.page_num"
-                        class="grid grid-cols-1 sm:grid-cols-2 justify-center content-center h-screen scroll-smooth">
+                        class="grid grid-cols-1 sm:grid-cols-2 justify-center content-center h-screen scroll-smooth snap-center">
                         <PageComponent :photo_text="page.photo_text" :text="page.text"></PageComponent>
                     </div>
                 </section>
