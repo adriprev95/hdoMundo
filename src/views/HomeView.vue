@@ -25,12 +25,7 @@
             <div class="grow flex flex-col justify-end items-center gap-6 py-10">
                 <div class="col-span-1">
                     <figure class="w-10 md:w-20 animate-bounce">
-                        <svg viewBox="0 0 40 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <g id="Frame">
-                                <path id="Vector" d="M20 59.9999L37.3205 35.6854H2.6795L20 59.9999Z" fill="white" />
-                                <path id="Vector_2" d="M20 60L32.1884 15H7.81152L20 60Z" fill="white" />
-                            </g>
-                        </svg>
+                        <ArrowDown></ArrowDown>
                     </figure>
                 </div>
                 <div class="col-span-1">
@@ -55,6 +50,7 @@ import { ref } from 'vue'
 import { useRouter } from 'vue-router';
 import DoorClose from '@/assets/img/DoorClose.vue'
 import DoorOpen from '@/assets/img/DoorOpen.vue'
+import ArrowDown from '@/assets/img/ArrowDown.vue';
 
 
 let doorFlag = ref<Boolean>(true)

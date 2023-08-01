@@ -9,7 +9,8 @@
                 </h1>
 
             </header>
-            <section class="grow grid grid-cols-1 justify-center content-center place-content-center place-items-center">
+            <section
+                class="grow grid grid-cols-1 px-20 gap-9 justify-center content-center place-content-start place-items-center">
                 <TailCardComponent v-for="tail in listTails" :key="tail.id" :id="tail.id" :img-url="tail.poster_path">
                 </TailCardComponent>
             </section>
