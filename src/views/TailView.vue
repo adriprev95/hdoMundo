@@ -54,10 +54,13 @@ onBeforeMount(async () => {
 
 function scrollY() {
     const scroll = document.getElementById('scroll')
-    let top = scroll?.scrollTop
-    let heigth = scroll?.clientHeight
-    console.log(heigth)
-    scroll?.scrollTo(0, top + heigth);
+    if (scroll) {
+        let top = scroll?.scrollTop
+        let heigth = scroll?.clientHeight
+        console.log(heigth)
+        scroll?.scrollTo(0, top + heigth);
+    }
+
 }
 </script>
 
