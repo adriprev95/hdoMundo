@@ -12,10 +12,10 @@
                         <button class="fixed  bottom-0 right-0 w-5 md:w-10 mb-5 mr-5 animate-pulse" @click="scrollY">
                             <ArrowDown></ArrowDown>
                         </button>
-                        <section class="scrollbar-hide scroll-smooth overflow-scroll snap-y snap-mandatory" id="scroll">
+                        <section class="scrollbar-hide scroll-smooth overflow-scroll snap-y snap-mandatory">
                             <div v-for="page in pages" :key="page.page_num"
                                 class="grid grid-cols-1 sm:grid-cols-2 justify-center content-center h-screen snap-always snap-center overscroll-none">
-                                <PageComponent :photo_text="page.photo_text" :text="page.text" :id="page.page_num">
+                                <PageComponent :photo_text="page.photo_text" :text="page.text">
                                 </PageComponent>
                             </div>
                         </section>
