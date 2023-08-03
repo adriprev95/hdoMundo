@@ -3,7 +3,7 @@
         <template #default>
             <div>
                 <section
-                    class="h-screen bg-no-repeat bg-center bg-cover bg-[url('/src/assets/img/6313772.jpg')] saturate-50 z-10 fixed overflow-hidden">
+                    class="h-screen bg-no-repeat bg-center bg-cover bg-[url('/src/assets/img/background.webp')] saturate-50 z-10 fixed overflow-hidden">
                     <main class="flex flex-col h-screen w-screen bg-gradient-to-b from-black to-transparent">
                         <button class="fixed w-5 md:w-10 mt-5 ml-5 rotate-90 animate-pulse"
                             @click="$router.push({ name: 'tailslibrary' })">

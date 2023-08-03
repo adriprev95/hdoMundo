@@ -1,7 +1,8 @@
 <template>
     <Suspense>
         <template #default>
-            <section class="h-screen bg-no-repeat bg-center bg-cover bg-[url('/src/assets/img/6313772.jpg')] saturate-50">
+            <section
+                class="h-screen bg-no-repeat bg-center bg-cover bg-[url('/src/assets/img/background.webp')] saturate-50">
                 <main class="flex flex-col h-screen w-screen bg-gradient-to-b from-black to-transparent">
                     <header
                         class="pt-24 mx-5 sm:mx-11 md:mx-20 lg:mx-40 2xl:mx-72 flex flex-col gap-6 sm:gap-8 md:gap-10 lg:gap-12 xl:gap-20">
